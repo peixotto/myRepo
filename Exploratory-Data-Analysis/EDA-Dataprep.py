@@ -7,5 +7,5 @@ df = sns.load_dataset('diamonds')
 print(df)
 
 # Dataprep CREATE REPORT
-create_report(df)
+create_report(df).show_browser()
 
